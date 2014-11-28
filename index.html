@@ -55,23 +55,31 @@ layout: default
     <h5 class="index-headline normal"><span>Regular</span></h5>
     {% endif %}
 
-    <nav class="pagination" role="navigation">
-      
-      {% if paginator.total_pages >= 1 %}
+{% if paginator.total_pages >= 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
 
-        {% if paginator.next_page %}
-              <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
-        {% endif %}
-              <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.previous_page %}
-           {% if paginator.page == 2 %}
-              <a class="older-posts" href="/">Newer posts &rarr;</a>
-        {% else %}
-            <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-        {% endif %}
-      {% endif %}
-      {% endif %}
-    </nav>
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %
 
 
     <!-- {{!! After all the posts, we have the previous/next pagination links }} 
