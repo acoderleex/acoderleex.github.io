@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Mqtt部署"
+date:   2014-08-29 14:34:25
+categories: tony blogs
+tags: featured
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+---
+1.在服务器端安装mosquitto,官方文档
+
+http://michaelconnors.net/article/462/hello-mqtt
+
+2.直接在本地运行就可以
+
+3.Android客户端配置,其中用户名和密码是必须要的，不然连接不上服务器
+
+5.由于服务器采用Aws,所以需要修改默认的1883端口
+
+6.主题的定制
