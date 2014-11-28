@@ -16,39 +16,46 @@ cover: "/assets/images/background_image.jpg"
 name: 'Tony'
 author: 'Tony'
 author_image: "/assets/images/myavartar.jpg"
-
-paginate:	5
-paginate_path: "page:num"
-
 url: "http://github.com/acoderleex" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
 social:
-  - icon:	twitter
+  - icon: twitter
     url:  https://twitter.com/tony60763316
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
-  - icon:	facebook
-    url:	https://www.facebook.com/tony.villam.5
+  - icon: facebook
+    url:  https://www.facebook.com/tony.villam.5
     desc: Connect with me facebook
     share_url: //www.facebook.com/sharer.php
     share_title: ?t=
     share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/acoderleex
-    desc:	Fork me on github
+  - icon: github
+    url:  https://github.com/acoderleex
+    desc: Fork me on github
     share_url:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
+#  - icon:  google-plus
+#    url: https://google.com/???
+#    desc:  Add me on google+
 #    share_url:
 #    share_title:
 #    share_link:
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["node_modules"]
+
+
+
