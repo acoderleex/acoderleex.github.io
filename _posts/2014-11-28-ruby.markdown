@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Ruby 配置 git-commit-notifier "
+date:   2014-11-28 18:34:25
+tags: featured
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+---
+1.sudo apt-get install ruby命令默认安装ruby1.8.7
+
+   sudo apt-get install ruby1.9.1 安装不上，所以只能选择下载安装包来自己安装
+  
+  需要先卸载以前的ruby
+  
+  cd /home 
+  
+  mkdir ruby
+  
+  sudo  wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
+  
+  sudo  tar -xvvf ruby-1.9.2-p0.tar.gz
+  
+  cd ruby-*
+  
+  ./configure --prefix=/usr/local/ruby-version
+  
+  make
+  
+  make install
+  
+
+ 设置环境变量
+ 
+ sudo vim /etc/environment
+ 
+ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/ruby-  version/bin"
+ 
+ source /etc/environment
+ 
+ ruby -v
+ 
+ 不过sudo ruby -v需要自己做软连接到/usr/bin下面去。(例如：sudo ln -s /usr/local/ruby-version/bin/ruby /usr/bin/ruby )
+
+2.gem -v
+
+3.http://yaml-online-parser.appspot.com/  config的语法检测
