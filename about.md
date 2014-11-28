@@ -4,14 +4,32 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+比较快乐的人生看法，在于起床时，对于将临的一日，没有那么深沉的算计。
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+完全没有缺乏的人，也不可能再有更多的快乐了。
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+快乐是一种等待的过程。
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+突然而来的所谓“惊喜”，事实上叫人手足无措。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+一般性的快乐往往可以言传。 
+
+真正深刻的快乐，没有可能使得他人意会。
+
+快乐和悲伤都是寂寞。
+
+快乐是不堪闻问的鬼东西，如果不相信，请问自己三遍━━我快乐吗？
+
+快乐是另外一件国王的新衣。
+
+这一回，如果国王穿著它出来游街，大家都笑死了━━笑一个国王怎么不穿衣服出来乱跑呀！
+
+你快乐吗？
+
+你快乐吗？
+
+你快乐吗？
+
+试试看，每天吃一颗糖，然后告诉自己━━今天的日子，果然又是甜的。
+
+你快乐么，我很快乐，Oh,yeah,yeah,苍茫的天涯我的爱，留下来..尼玛..
