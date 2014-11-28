@@ -18,6 +18,7 @@ author: 'Tony'
 author_image: "/assets/images/myavartar.jpg"
 
 paginate:	5
+paginate_path: "page:num"
 
 url: "http://github.com/acoderleex" # the base hostname & protocol for your site
 baseurl: ""
