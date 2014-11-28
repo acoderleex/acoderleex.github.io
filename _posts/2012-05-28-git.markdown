@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Ubuntu下git的配置"
+date:   2012-05-28 21:34:25
+categories: tony blogs
+tags: featured
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+---
+服务器端
+
+1.在git根目录下修改.gitolite中的配置文件conf,添加自己的仓库名称
+
+2.在repositories目录下创建自己的仓库
+
+mkdir test.git
+
+git init --bare
+
+chown git:git  .  -R 
+
+vim gl-conf
+
+添加权限
+
+本地
+
+1.mkdir test
+
+2.git init-db
+
+3.git add *
+
+4.git commit -a -m "test"
+
+5.git remote add master git@test.com:test
+
+6.git push master --all 
+
+文件.git/info/exclude
+      .gitignore
