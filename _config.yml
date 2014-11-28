@@ -5,11 +5,11 @@ highlighter: pygments
 # Site settings
 title: "Tony's area"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   对面走过来一个人，撞上了叫做爱情；对面开过来一辆车，撞上了叫做车祸。可惜车与车总是撞，人与人却总是让
 
 email: acoderleex@gmail.com
 #blog logo
-logo: "/assets/images/myavartar.jpg"
+logo: "/assets/images/mylogo.jpg"
 # blog cover
 cover: "/assets/images/background_image.jpg"
 
@@ -19,7 +19,7 @@ author_image: "/assets/images/myavartar.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://github.com/acoderleex" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
