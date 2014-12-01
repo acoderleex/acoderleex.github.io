@@ -2,6 +2,8 @@
 layout: post
 title:  "Ruby 配置 git-commit-notifier "
 date:   2014-11-28 18:34:25
+datakey: 3333333
+dataurl: http://acoderleex.github.io/2014/11/28/ruby/
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---

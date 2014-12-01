@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Mqtt部署"
+datakey: 2222222
+dataurl: http://acoderleex.github.io/2014/08/29/mqtt/
 date:   2014-08-29 14:34:25
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG

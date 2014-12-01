@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Ubuntu下git的配置"
+datakey: 1111111
+dataurl: http://acoderleex.github.io/2012/05/29/git/
 date:   2012-05-28 21:34:25
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG

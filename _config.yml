@@ -57,5 +57,13 @@ permalink: pretty
 paginate: 5
 exclude: ["node_modules"]
 
+#duoshuo Pinglun
+comments :
+  provider : duoshuo
+  duoshuo : 
+    short_name : acoderleex
+
+
+
 
 
