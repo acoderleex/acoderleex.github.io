@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mac 安装 破解版 Zendstudio"
+title:  "Mac  下安装 破解版 Zendstudio"
 date:   2014-12-12 11:34:25
 datakey: 4444444
 dataurl: http://acoderleex.github.io/2014/12/12/zendstudio/
