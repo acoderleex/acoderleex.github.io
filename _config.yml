@@ -54,7 +54,7 @@ social:
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 6
+paginate: 10
 exclude: ["node_modules"]
 
 #duoshuo Pinglun
