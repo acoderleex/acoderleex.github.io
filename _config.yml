@@ -52,7 +52,7 @@ social:
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+rouge: pygments
 permalink: pretty
 paginate: 10
 exclude: ["node_modules"]
