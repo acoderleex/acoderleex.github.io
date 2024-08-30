@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "sql索引"
+datakey: 22222221
+dataurl: http://acoderleex.github.io/2024/08/30/mysql/
+date:   2024-08-30 14:34:25
+tags: featured
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+---
+
 # sql索引
 - 索引是取出了一列或者几个特殊的列，然后把他们重命名为index_name，然后存起来，存的方式是用特殊的数据结构，比如二叉树。
 
